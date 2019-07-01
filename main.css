@@ -1,0 +1,173 @@
+@font-face {
+    font-family: ogg-roman;
+    src: local(ogg-roman), url('fonts/ogg-roman.otf') format('opentype');
+}
+@font-face {
+    font-family: apercu-mono;
+    src: local(apercu-mono), url('fonts/apercu-mono.otf') format('opentype');
+}
+@font-face {
+    font-family: apercu-regular;
+    src: local(apercu-regular), url('apercu-regular.otf') format('opentype');
+}
+
+
+h1 {
+    font-family: 'ogg-roman', serif;
+    font-size: 64px;
+    width: 75%;
+    margin-left: 60px;
+}
+
+body {
+    font-family:'apercu-mono', sans-serif;
+    margin:0;
+}
+
+header {
+    display: flex;
+}
+#icon {
+    height:150px;
+    margin-right: 75%;
+}
+
+#navbar {
+     writing-mode: vertical-rl;
+    float: right;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+    width: 60px;
+    margin: none;
+}
+
+#community {
+    background-color: #f4b63f;
+}
+#retail {
+    background-color: #e3534c;
+}
+#food {
+    background-color: #6ea3e6;
+}
+
+#image1 {
+    width: 100%;
+}
+h2 {
+    font-size: 90px;
+    font-family: 'ogg-roman', serif;
+}
+
+.market {
+    width: 50%;
+}
+
+.imgfamily {
+   display: flex;
+    margin-bottom: 1%;
+
+}
+
+.imgfamily img {
+    justify-content: space-around;
+    width:31%;
+    margin-right: 1%;
+    margin-left: 1%
+   
+}
+
+.captionfamily {
+    display:flex;
+    margin-top:1%;
+}
+
+.captionfamily p {
+    justify-content: space-between;
+}
+
+.c1 {
+    width: 30%;   
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.c2 {
+    margin-left: 1%;
+    margin-right: 14%;
+    width:19%;
+}
+.c3 {
+    width:20%;
+}
+
+.events {
+    display: flex;
+    justify-content: space-around;
+    margin: 0, %, 0, 1%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo {
+    display: flex;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    /*justify-content: space-between;*/
+    margin: 3%;
+    text-align: center;
+    column-count: 3;
+}
+
+.promo p{
+    margin: 3%;
+    justify-content: center;
+}
+
+button {
+  background-color: none
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.location {
+    border: dashed;
+    text-align: center;
+    font-family: 'ogg-roman', serif;
+    font-size: 64px
+}
+
+.vendor {
+    border: dashed;
+    text-align: center;
+    font-family: 'ogg-roman', serif;
+    font-size: 36px;
+}
+
+small {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+small span {
+    text-decoration: line-through;
+}
+
+.link {
+    text-decoration: underline;
+}
